@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  background-color: #ebebdb;
+  font-family: Geologica;
+}
+
+.mainmenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-top: 5px;
+  margin-left: 178px;
+}
+.mainmenu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.mainmenu ul li {
+  margin-left: 30px;
+  list-style: none;
+  font-size: 27px;
+  font-weight: 500;
+}
+.mainmenu ul li a {
+  text-decoration: none;
+  color: black;
+}
+.mainmenu ul li a:hover {
+  -webkit-transition-delay: 0.15s;
+          transition-delay: 0.15s;
+  color: #2f465a;
+  background-color: rgba(189, 179, 140, 0.2);
+  padding: 4px 10px;
+  border-radius: 21px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 975px;
+  max-width: 1920px;
+  margin-left: 120px;
+}
+.container .langprog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  max-width: 1920px;
+}
+.container .langprog .langvizit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.container .langprog .langvizit h1 {
+  margin-top: 170px;
+  margin-left: 180px;
+  padding: 10%;
+  font-weight: 300;
+  font-size: 29px;
+}
+.container .langprog .langvizit img {
+  position: relative;
+  width: 115px;
+  height: 115px;
+  margin-top: -154px;
+  margin-left: 130px;
+  border: solid;
+  border-color: #e0e0cf;
+  border-radius: 200px;
+}
+.container .langprog .langvizit h2 {
+  margin-top: 50px;
+  margin-left: 130px;
+  padding-right: 150px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.container .langprog .langvizit p {
+  margin-top: 3px;
+  margin-left: 130px;
+  padding-right: 150px;
+}
+.container .langprog .langvizit span {
+  margin-right: 13px;
+}
+.container .langinfo {
+  margin-right: 260px;
+  margin-top: -41px;
+}
+.container .langinfo p {
+  color: rgba(212, 213, 206, 0.8);
+  font-family: Geologica;
+  font-size: 230px;
+}
+
+.description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 120px;
+  margin-left: 50%;
+  padding-right: 250px;
+  height: 130px;
+}
+.description_text {
+  font-weight: 100;
+  font-size: 20px;
+}
+.description_text span {
+  margin-right: 13px;
+  margin-left: 13px;
+  font-size: 6px;
+}
+.description_text span i {
+  vertical-align: super;
+}
+.description hr {
+  width: 600px;
+  border: 0;
+  height: 2px;
+  background: -webkit-gradient(linear, left top, right top, from(rgb(116, 86, 78)), to(#feb47b));
+  background: linear-gradient(90deg, rgb(116, 86, 78), #feb47b);
+  margin: 20px 0;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 600px;
+  background-color: rgb(221, 223, 215);
+  border: 0.2px solid grey;
+  -webkit-box-shadow: 1px 1px 1px rgba(218, 218, 218, 0.6117647059);
+          box-shadow: 1px 1px 1px rgba(218, 218, 218, 0.6117647059);
+  height: 100px;
+}
+.footer i {
+  background-color: rgba(221, 223, 215, 0.3);
+  margin-left: 25px;
+  font-size: 30px;
+}
